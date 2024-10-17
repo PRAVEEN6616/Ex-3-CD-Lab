@@ -14,9 +14,6 @@ To write a yacc program to recognize a valid arithmetic expression that uses ope
 8.	Enter an arithmetic expression as input and the tokens are identified as output.
 # PROGRAM
 ```
-NAME:JAYAVARSHA T
-REGISTER NO:212223040075
-
 %{
 /* This LEX program returns the tokens for the expression */
 #include "y.tab.h"
@@ -67,7 +64,10 @@ yyparse();
 }
 ```
 # OUTPUT
-![375295567-d636b1a8-9fb7-4470-8885-710ecea76a01](https://github.com/user-attachments/assets/ffc62bbe-effe-44d7-9cfc-8204636e8acf)
+
+![Screenshot 2024-10-17 174516](https://github.com/user-attachments/assets/e6a3e160-785f-4d90-9644-27cc6f206fe1)
+
 
 # RESULT
 A YACC program to recognize a valid arithmetic expression that uses operator +,-,* and / is executed successfully and the output is verified.
+
